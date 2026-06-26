@@ -6,8 +6,8 @@ export default function WelcomeScreen({ navigation }: any) {
   return (
     <View style={styles.container}>
       <Ionicons name="paw" size={80} color="#0984e3" />
-      <Text style={styles.title}>VetCare Happy</Text>
-      <Text style={styles.subtitle}>Nuestros amigos peludos en las mejores manos</Text>
+      <Text style={styles.title}>PetHaus</Text>
+      <Text style={styles.subtitle}>Los peluditos de casa, en manos expertas y llenas de amor.</Text>
       
       <TouchableOpacity 
         style={styles.btn} 
